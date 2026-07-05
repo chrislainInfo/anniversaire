@@ -50,3 +50,19 @@ button {
     border: none;
     border-radius: 5px;
 }
+
+@media (max-width: 400px) {
+    .carousel {
+        width: 90%;
+    }
+
+    .video-section {
+        width: 95%;
+    }
+
+    button {
+        width: 70%;
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+}
